@@ -1,0 +1,56 @@
+.crypto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'roboto';
+  color: #00e7ff;
+}
+.crypto-image {
+  width: 100%;
+}
+.crypto-card-container {
+  width: 85%;
+  height: 270px;
+  border: 4px solid #00e7ff;
+  border-radius: 4px;
+}
+.crypto-heading-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+}
+.coin-type {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'roboto';
+  color: #fff;
+  width: 110px;
+  margin: 10px;
+}
+@media screen and (max-width: 768px) {
+  .coin-type {
+    width: 60px;
+    font-size: 18px;
+  }
+}
+.currency-value-heading-container {
+  display: flex;
+}
+.crypto-list-container {
+  padding-left: 0px;
+}
+.coin-value {
+  text-align: end;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+}
